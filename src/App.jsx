@@ -14,7 +14,7 @@
 // export default App;
 
 // Card Component
-// import Card from "./Card";
+// import Card from "./component/Card";
 // function App() {
 //   return (
 //     <>
