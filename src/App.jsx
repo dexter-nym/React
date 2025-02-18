@@ -14,14 +14,21 @@
 // export default App;
 
 // Card Component
-import Card from "./Card";
+// import Card from "./Card";
+// function App() {
+//   return (
+//     <>
+//       <Card />
+//       <Card />
+//       <Card />
+//       <Card />
+//       <Card />
+//       <Card />
+//       <Card />
+//       <Card />
+//     </>
+//   );
+// }
+// export default App;
 
-function App() {
-  return (
-    <>
-      <Card />
-    </>
-  );
-}
 
-export default App;
