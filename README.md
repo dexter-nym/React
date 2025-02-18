@@ -13,4 +13,5 @@ export default App;
 1. Components
 2. Card Component
 3. External (in index.css), Modules (Button.module.css naming), Inline (object in JS -> style={styles}) CSS
-4. Props
+4. Props -> set PropsTypes -> defaultProps
+5. Conditional rendering
