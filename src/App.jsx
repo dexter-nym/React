@@ -31,13 +31,15 @@
 // }
 // export default App;
 
+// 3 Ways to apply CSS
+// import Button from "./components/Button";
+// function App() {
+//   return (
+//     <>
+//       <Button />
+//     </>
+//   );
+// }
+// export default App;
+
 // Props
-import Button from "./components/Button";
-function App() {
-  return (
-    <>
-      <Button />
-    </>
-  );
-}
-export default App;
