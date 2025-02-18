@@ -55,3 +55,14 @@
 //   );
 // }
 // export default App;
+
+// Conditional rendering
+import UserGreeting from "./components/UserGreeting";
+function App() {
+  return (
+    <>
+      <UserGreeting isLoggedIn={true} username="BroCode" />
+    </>
+  );
+}
+export default App;
