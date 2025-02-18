@@ -31,4 +31,8 @@
 // }
 // export default App;
 
-
+// Props
+function App() {
+  return <></>;
+}
+export default App;
