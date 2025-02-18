@@ -15,3 +15,4 @@ export default App;
 3. External (in index.css), Modules (Button.module.css naming), Inline (object in JS -> style={styles}) CSS
 4. Props -> set PropsTypes -> defaultProps
 5. Conditional rendering
+6. List Rendering

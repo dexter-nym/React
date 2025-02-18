@@ -57,12 +57,18 @@
 // export default App;
 
 // Conditional rendering
-import UserGreeting from "./components/UserGreeting";
+// import UserGreeting from "./components/UserGreeting";
+// function App() {
+//   return (
+//     <>
+//       <UserGreeting isLoggedIn={true} username="BroCode" />
+//     </>
+//   );
+// }
+// export default App;
+
+// List Rendering
 function App() {
-  return (
-    <>
-      <UserGreeting isLoggedIn={true} username="BroCode" />
-    </>
-  );
+  return;
 }
 export default App;
