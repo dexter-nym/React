@@ -24,7 +24,11 @@ body {
   align-items: center;
   padding: 10px;
 }
-
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -51,6 +55,7 @@ h1 {
   margin-bottom: 7px;
 }
 
+/* Button Css */
 .btn {
   background-color: #1a1a1a;
   color: #fff;
@@ -58,4 +63,21 @@ h1 {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+/* Props */
+.student {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  max-width: 250px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+
+.student p {
+  font-size: 16px;
+  margin: 6px 0;
 }

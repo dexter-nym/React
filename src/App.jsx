@@ -43,3 +43,15 @@
 // export default App;
 
 // Props
+import Student from "./components/Student";
+function App() {
+  return (
+    <>
+      <Student name="Spongebob" age={20} isStudent={true} />
+      <Student name="Patrik" age={42} isStudent={false} />
+      <Student name="Squideard" age={50} isStudent={false} />
+      <Student name="Sandy" age={27} isStudent={true} />
+    </>
+  );
+}
+export default App;
