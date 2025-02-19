@@ -68,7 +68,33 @@
 // export default App;
 
 // List Rendering
-function App() {
-  return;
-}
-export default App;
+// import List from "./components/List";
+// function App() {
+//   const fruits = [
+//     { id: 1, name: "apple", calories: 52 },
+//     { id: 2, name: "banana", calories: 89 },
+//     { id: 3, name: "orange", calories: 47 },
+//     { id: 4, name: "coconut", calories: 354 },
+//     { id: 5, name: "pineapple", calories: 50 },
+//   ];
+//   const vegetables = [
+//     { id: 1, name: "carrot", calories: 41 },
+//     { id: 2, name: "broccoli", calories: 55 },
+//     { id: 3, name: "spinach", calories: 23 },
+//   ];
+//   return (
+//     <>
+//       <div>
+//         {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
+//       </div>
+//       <div>
+//         {vegetables.length > 0 && (
+//           <List items={vegetables} category="Vegetables" />
+//         )}
+//       </div>
+//     </>
+//   );
+// }
+// export default App;
+
+// Click Event
