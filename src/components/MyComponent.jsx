@@ -140,8 +140,66 @@
 // export default MyComponent;
 
 // Update array of object in useState hook
-import { useState } from "react";
-function MyComponent() {
-  return
-}
-export default MyComponent;
+// import { useState } from "react";
+// function MyComponent() {
+//   const [cars, setCars] = useState([]);
+//   const [carYear, setCarYear] = useState(new Date().getFullYear());
+//   const [carMake, setCarMake] = useState([]);
+//   const [carModel, setCarModel] = useState([]);
+
+//   function addCar() {
+//     const newCar = { year: carYear, make: carMake, model: carModel };
+//     setCars((c) => [...c, newCar]);
+
+//     setCarYear(new Date().getFullYear());
+//     setCarMake([]);
+//     setCarModel([]);
+//   }
+//   function removeCar(index) {
+//     setCars(cars.filter((_, i) => i !== index));
+//   }
+//   function yearChange(e) {
+//     setCarYear(e.target.value);
+//   }
+//   function makeChange(e) {
+//     setCarMake(e.target.value);
+//   }
+//   function modelChange(e) {
+//     setCarModel(e.target.value);
+//   }
+
+//   return (
+//     <div className="update-array">
+//       <h2>List of car object</h2>
+//       <ul>
+//         {cars.map((car, index) => (
+//           <div key={index} className="items">
+//             <li>
+//               {car.year} {car.make} {car.model}
+//             </li>
+//             <button className="btn" onClick={() => removeCar(index)}>
+//               Remove
+//             </button>
+//           </div>
+//         ))}
+//       </ul>
+//       <input type="number" value={carYear} onChange={(e) => yearChange(e)} />
+//       <input
+//         type="text"
+//         value={carMake}
+//         onChange={(e) => makeChange(e)}
+//         placeholder="Car Maker.."
+//       />
+//       <input
+//         type="text"
+//         value={carModel}
+//         onChange={(e) => modelChange(e)}
+//         placeholder="Car Model.."
+//       />
+//       <button className="btn" onClick={addCar}>
+//         Add Car
+//       </button>
+//     </div>
+//   );
+// }
+// export default MyComponent;
