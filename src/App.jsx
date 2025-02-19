@@ -122,8 +122,10 @@
 // }
 // export default App;
 
-// Color Picker
-function App() {
-  return <ColorPicker />;
-}
-export default App;
+// // Color Picker
+// import ColorPicker from "./components/ColorPicker";
+// function App() {
+//   return <ColorPicker />;
+// }
+// export default App;
+``
