@@ -19,3 +19,4 @@ export default App;
 7. Click Event
 8. useState() a React Hook other: useEffect, useContext
 9. onChange event handler
+10. Color Picker App Mini Project
