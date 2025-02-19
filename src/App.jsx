@@ -109,9 +109,9 @@
 // export default App;
 
 // useState() a React Hook
-function App() {
-  return <>
-  
-  </>;
-}
-export default App;
+// import MyComponent from "./components/MyComponent";
+// function App() {
+//   return <MyComponent />;
+// }
+// export default App;
+
