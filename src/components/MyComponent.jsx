@@ -205,7 +205,74 @@
 // export default MyComponent;
 
 // useEffect Hook
-function MyComponent() {
-  return <></>;
-}
-export default MyComponent;
+// import { useState, useEffect } from "react";
+// function MyComponent() {
+//   const [count, setCount] = useState(0);
+//   const [color, setColor] = useState("White");
+//   // runs after every re-render
+//   // useEffect(() => {
+//   //   document.title = `Count: ${count}`;
+//   // });
+//   // Runs only on Mount
+//   // useEffect(() => {
+//   //   document.title = `Count: ${count}`;
+//   // }, []);
+//   // Runs when Mount + when Value changes
+//   useEffect(() => {
+//     document.title = `Count: ${count} Color: ${color}`;
+//   }, [count]);
+
+//   function addCount() {
+//     setCount((c) => c + 1);
+//   }
+//   function changeColor() {
+//     setColor(color === "Brown" ? "White" : "Brown");
+//   }
+
+//   return (
+//     <>
+//       <p style={{ color: color }}>Count: {count}</p>
+//       <button onClick={addCount} className="btn">
+//         Add
+//       </button>
+//       <button onClick={changeColor} className="btn">
+//         Change Color
+//       </button>
+//     </>
+//   );
+// }
+// export default MyComponent;
+
+// useEffect Hook 2
+// import { useState, useEffect } from "react";
+// function MyComponent() {
+//   const [width, setWidth] = useState(window.innerWidth);
+//   const [height, setHeight] = useState(window.innerHeight);
+
+//   useEffect(() => {
+//     window.addEventListener("resize", handleResize);
+//     console.log("Event Listener Added");
+
+//     return () => {
+//       window.removeEventListener("resize", handleResize);
+//       console.log("Event Listener Removed");
+//     };
+//   }, []);
+
+//   useEffect(() => {
+//     document.title = `${width} X ${height}`;
+//   }, [width, height]);
+
+//   function handleResize() {
+//     setWidth(window.innerWidth);
+//     setHeight(window.innerHeight);
+//   }
+
+//   return (
+//     <>
+//       <p>Window Width: {width}px</p>
+//       <p>Window Height: {height}px</p>
+//     </>
+//   );
+// }
+// export default MyComponent;
