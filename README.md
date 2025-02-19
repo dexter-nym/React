@@ -16,3 +16,4 @@ export default App;
 4. Props -> set PropsTypes -> defaultProps
 5. Conditional rendering
 6. List Rendering
+7. Click Event
