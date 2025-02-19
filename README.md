@@ -40,3 +40,5 @@ export default App;
     o/p count = 3
 
 12. Update objects
+13. Update array of objects in useState hook
+14. useEffect() Hook

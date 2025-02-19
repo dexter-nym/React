@@ -203,3 +203,9 @@
 //   );
 // }
 // export default MyComponent;
+
+// useEffect Hook
+function MyComponent() {
+  return <></>;
+}
+export default MyComponent;
