@@ -97,3 +97,39 @@
 //   );
 // }
 // export default MyComponent;
+
+// Update Arrays
+import { useState } from "react";
+function MyComponent() {
+  const [] = useState([]);
+  const change = (e) => {};
+  const change = (e) => {};
+  const change = (e) => {};
+  return (
+    <div className="update-array">
+      <p></p>
+      <input
+        type="number"
+        value
+        onChange={(e) => {
+          change(e);
+        }}
+      />
+      <input
+        type="text"
+        value
+        onChange={(e) => {
+          change(e);
+        }}
+      />
+      <input
+        type="text"
+        value
+        onChange={(e) => {
+          change(e);
+        }}
+      />
+    </div>
+  );
+}
+export default MyComponent;
