@@ -142,3 +142,10 @@
 //   return <MyComponent />;
 // }
 // export default App;
+
+// Update array of object in useState hook
+import MyComponent from "./components/MyComponent";
+function App() {
+  return <MyComponent />;
+}
+export default App;

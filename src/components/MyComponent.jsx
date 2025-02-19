@@ -138,3 +138,10 @@
 //   );
 // }
 // export default MyComponent;
+
+// Update array of object in useState hook
+import { useState } from "react";
+function MyComponent() {
+  return
+}
+export default MyComponent;
