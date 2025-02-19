@@ -35,17 +35,65 @@
 // export default MyComponent;
 
 // onChange Event handler
-import { useState } from "react";
-function MyComponent() {
-  const [name, setName] = useState("Guest");
-  function nameChange(e) {
-    setName(e.target.value);
-  }
-  return (
-    <div>
-      <input type="text" value={name} onChange={(e) => nameChange(e)} />
-      <p>Name: {name}</p>
-    </div>
-  );
-}
-export default MyComponent;
+// import { useState } from "react";
+// function MyComponent() {
+//   const [name, setName] = useState("Guest");
+//   function nameChange(e) {
+//     setName(e.target.value);
+//   }
+//   return (
+//     <div>
+//       <input type="text" value={name} onChange={(e) => nameChange(e)} />
+//       <p>Name: {name}</p>
+//     </div>
+//   );
+// }
+// export default MyComponent;
+
+// Update Objects
+// import { useState } from "react";
+// function MyComponent() {
+//   const [car, setCar] = useState({
+//     year: 2024,
+//     make: "Ford",
+//     model: "Mustang",
+//   });
+//   const changeYear = (e) => {
+//     setCar((c) => ({ ...c, year: e.target.value }));
+//   };
+//   const changeMake = (e) => {
+//     setCar((c) => ({ ...c, make: e.target.value }));
+//   };
+//   const changeModel = (e) => {
+//     setCar((c) => ({ ...c, model: e.target.value }));
+//   };
+//   return (
+//     <div className="update-object">
+//       <p>
+//         Your favorite car is: {car.year} {car.make} {car.model}
+//       </p>
+//       <input
+//         type="number"
+//         value={car.year}
+//         onChange={(e) => {
+//           changeYear(e);
+//         }}
+//       />
+//       <input
+//         type="text"
+//         value={car.make}
+//         onChange={(e) => {
+//           changeMake(e);
+//         }}
+//       />
+//       <input
+//         type="text"
+//         value={car.model}
+//         onChange={(e) => {
+//           changeModel(e);
+//         }}
+//       />
+//     </div>
+//   );
+// }
+// export default MyComponent;

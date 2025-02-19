@@ -128,3 +128,10 @@
 //   return <ColorPicker />;
 // }
 // export default App;
+
+// Update Objects
+// import MyComponent from "./components/MyComponent";
+// function App() {
+//   return <MyComponent />;
+// }
+// export default App;

@@ -38,3 +38,5 @@ export default App;
     setCount(c => c + 1) or setCount(count => count + 1)
     }
     o/p count = 3
+
+12. Update objects
