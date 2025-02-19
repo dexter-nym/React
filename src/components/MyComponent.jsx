@@ -99,37 +99,42 @@
 // export default MyComponent;
 
 // Update Arrays
-import { useState } from "react";
-function MyComponent() {
-  const [] = useState([]);
-  const change = (e) => {};
-  const change = (e) => {};
-  const change = (e) => {};
-  return (
-    <div className="update-array">
-      <p></p>
-      <input
-        type="number"
-        value
-        onChange={(e) => {
-          change(e);
-        }}
-      />
-      <input
-        type="text"
-        value
-        onChange={(e) => {
-          change(e);
-        }}
-      />
-      <input
-        type="text"
-        value
-        onChange={(e) => {
-          change(e);
-        }}
-      />
-    </div>
-  );
-}
-export default MyComponent;
+// import { useState } from "react";
+// function MyComponent() {
+//   const [foods, setFoods] = useState(["Apple", "Banana", "Orange"]);
+//   const addFood = () => {
+//     const food = document.getElementById("foodInput").value;
+//     setFoods((f) => [...f, food]);
+//     document.getElementById("foodInput").value = "";
+//   };
+//   const removeFood = (index) => {
+//     setFoods(foods.filter((_, i) => i !== index));
+//   };
+//   return (
+//     <div className="update-array">
+//       <h2>Lists of Food</h2>
+//       <ul>
+//         {foods.map((fruit, index) => (
+//           <div key={index} className="food-items">
+//             <li>{fruit}</li>
+//             <button onClick={() => removeFood(index)} className="btn">
+//               Remove
+//             </button>
+//           </div>
+//         ))}
+//       </ul>
+//       <div>
+//         <input
+//           type="text"
+//           id="foodInput"
+//           placeholder="Food name goes here.."
+//           required
+//         />
+//         <button onClick={addFood} className="btn">
+//           Add food
+//         </button>
+//       </div>
+//     </div>
+//   );
+// }
+// export default MyComponent;
