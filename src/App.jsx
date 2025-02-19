@@ -151,8 +151,15 @@
 // export default App;
 
 // useEffect Hook
-import MyComponent from "./components/MyComponent";
+// import MyComponent from "./components/MyComponent";
+// function App() {
+//   return <MyComponent />;
+// }
+// export default App;
+
+// Digital Clock
+import DigitalClock from "./components/DigitalClock";
 function App() {
-  return <MyComponent />;
+  return <DigitalClock />;
 }
 export default App;
