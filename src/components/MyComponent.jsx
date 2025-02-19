@@ -1,5 +1,5 @@
+// useState hook in React
 // import React, { useState } from "react";
-
 // function MyComponent() {
 //   const [name, setName] = useState("Guests");
 //   const [age, setAge] = useState(0);
@@ -33,3 +33,19 @@
 //   );
 // }
 // export default MyComponent;
+
+// onChange Event handler
+import { useState } from "react";
+function MyComponent() {
+  const [name, setName] = useState("Guest");
+  function nameChange(e) {
+    setName(e.target.value);
+  }
+  return (
+    <div>
+      <input type="text" value={name} onChange={(e) => nameChange(e)} />
+      <p>Name: {name}</p>
+    </div>
+  );
+}
+export default MyComponent;
