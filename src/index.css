@@ -65,6 +65,7 @@ h1 {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  transition: all 0.3s ease-in;
 }
 
 /* Props */
@@ -164,4 +165,24 @@ p {
 .box {
   border: 3px solid;
   padding: 25px;
+}
+
+.stop-watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2.5px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.display {
+  font-size: 60px;
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn:hover {
+  background-color: #ccc;
 }
