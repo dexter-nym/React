@@ -278,7 +278,22 @@
 // export default MyComponent;
 
 // useRef React Hook
+import { useEffect, useRef } from "react";
 function MyComponent() {
-  return;
+  const inputRef = useRef(null); // is useState is used for anything the its value keep updating the new component will reload on top
+  useEffect(() => {
+    console.log("Component Rendered!");
+  });
+  function handleClick() {
+    inputRef.current.focus();
+  }
+  return (
+    <div>
+      <button onClick={handleClick} className="btn">
+        Click
+      </button>
+      <input ref={inputRef} />
+    </div>
+  );
 }
 export default MyComponent;
