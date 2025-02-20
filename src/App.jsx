@@ -158,8 +158,8 @@
 // export default App;
 
 // Digital Clock
-import DigitalClock from "./components/DigitalClock";
-function App() {
-  return <DigitalClock />;
-}
-export default App;
+// import DigitalClock from "./components/DigitalClock";
+// function App() {
+//   return <DigitalClock />;
+// }
+// export default App;

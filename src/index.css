@@ -142,3 +142,21 @@ p {
   grid-template-columns: repeat(2, 1fr);
   margin: 5px;
 }
+
+.clock-container {
+  width: 450px;
+  height: 150px;
+  background-color: hsl(0, 0%, 80%);
+  outline: 7px solid #555555;
+  border-radius: 25px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  color: rgb(126, 39, 39);
+  font-size: 70px;
+  user-select: none;
+}
