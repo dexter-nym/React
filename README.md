@@ -42,3 +42,5 @@ export default App;
 12. Update objects
 13. Update array of objects in useState hook
 14. useEffect() Hook
+15. Digital Clock
+16. useContext Hook

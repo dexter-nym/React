@@ -163,3 +163,10 @@
 //   return <DigitalClock />;
 // }
 // export default App;
+
+// Use Context React hook
+import ComponentA from "./components/ComponentA";
+function App() {
+  return <ComponentA />;
+}
+export default App;
