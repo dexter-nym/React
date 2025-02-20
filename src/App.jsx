@@ -165,8 +165,15 @@
 // export default App;
 
 // Use Context React hook
-import ComponentA from "./components/ComponentA";
+// import ComponentA from "./components/ComponentA";
+// function App() {
+//   return <ComponentA />;
+// }
+// export default App;
+
+// useRef React hook
+import MyComponent from "./components/MyComponent";
 function App() {
-  return <ComponentA />;
+  return <MyComponent />;
 }
 export default App;

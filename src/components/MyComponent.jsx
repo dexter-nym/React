@@ -276,3 +276,9 @@
 //   );
 // }
 // export default MyComponent;
+
+// useRef React Hook
+function MyComponent() {
+  return;
+}
+export default MyComponent;
